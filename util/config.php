@@ -5,10 +5,10 @@ ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
 //Configurar essas variáveis de acordo com o seu ambiente
-define("DB_HOST", "localhost");
-define("DB_NAME", "db_alunos2");
+define("DB_HOST", "mysql-server");
+define("DB_NAME", "db_alunos");
 define("DB_USER", "root");
-define("DB_PASSWORD", "");
+define("DB_PASSWORD", "root");
 
 //Configuração do ambiente
 define("AMB_DEV", true);
@@ -19,4 +19,4 @@ define("SESSAO_USUARIO_ID", "USUARIOID");
 define("SESSAO_USUARIO_NOME", "USUARIONOME");
 
 //Configuração da URL base do sistema
-define("URL_BASE", "sistema_academico/");
+define("URL_BASE", "/sistema_academico");
